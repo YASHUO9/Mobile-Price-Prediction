@@ -1,0 +1,20 @@
+[2024-09-20 18:49:14,241] 97 werkzeug - WARNING -  * Debugger is active!
+[2024-09-20 18:49:14,247] 97 werkzeug - INFO -  * Debugger PIN: 112-909-000
+[2024-09-20 18:49:18,604] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 18:49:18] "GET / HTTP/1.1" 200 -
+[2024-09-20 18:49:19,431] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 18:49:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-09-20 18:49:25,245] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 18:49:25] "GET /predict HTTP/1.1" 200 -
+[2024-09-20 18:51:01,364] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 18:51:01] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2024-09-20 18:51:01,409] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 18:51:01] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2024-09-20 18:51:01,633] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 18:51:01] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2024-09-20 18:51:01,991] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 18:51:01] "GET /predict?__debugger__=yes&cmd=resource&f=console.png&s=nhfe7oTGXjm7jBiEsPfl HTTP/1.1" 200 -
+[2024-09-20 18:51:02,252] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 18:51:02] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2024-09-20 18:51:10,972] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 18:51:10] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2024-09-20 18:51:10,996] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 18:51:10] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-09-20 18:51:11,337] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 18:51:11] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-09-20 18:51:11,664] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 18:51:11] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png&s=nhfe7oTGXjm7jBiEsPfl HTTP/1.1[0m" 304 -
+[2024-09-20 18:51:11,932] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 18:51:11] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-09-20 18:51:30,203] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 18:51:30] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2024-09-20 18:51:30,236] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 18:51:30] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-09-20 18:51:30,541] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 18:51:30] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-09-20 18:51:30,862] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 18:51:30] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png&s=nhfe7oTGXjm7jBiEsPfl HTTP/1.1[0m" 304 -
+[2024-09-20 18:51:31,112] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 18:51:31] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -

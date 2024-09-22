@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Price Prediction</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Reset default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #e0f7fa;
+            color: #333;
+            overflow-x: hidden;
+        }
+
+        /* Eco-friendly theme colors */
+        :root {
+            --primary-green: #4caf50;
+            --dark-green: #388e3c;
+            --light-green: #81c784;
+            --background-color: #f1f8e9;
+        }
+
+        /* Header Styling */
+        header {
+            background: var(--primary-green);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header h1 {
+            font-size: 3em;
+            font-weight: 600;
+            margin: 0;
+            animation: slideIn 1s ease-out;
+        }
+
+        /* Button Styling */
+        .btn {
+            background-color: var(--dark-green);
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 1.2em;
+            display: inline-block;
+            margin-top: 30px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: var(--light-green);
+        }
+
+        /* Main container */
+        .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Features Section */
+        .features {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .feature-box {
+            flex: 1;
+            background-color: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, background-color 0.3s;
+            position: relative;
+            z-index: 1;
+            animation: floatBox 4s ease-in-out infinite;
+        }
+
+        .feature-box:hover {
+            transform: translateY(-10px);
+            background-color: var(--background-color);
+        }
+
+        .feature-box h3 {
+            color: var(--dark-green);
+            font-size: 1.8em;
+            margin-bottom: 15px;
+        }
+
+        .feature-box p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        /* Live Motion Effects */
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes floatBox {
+            0% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-15px);
+            }
+            100% {
+                transform: translateY(0px);
+            }
+        }
+
+        /* Background with Live Motion (Uploaded Image) */
+        .background-animation {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('pexels-apasaric-325185.jpg');
+            background-size: cover;
+            background-position: center;
+            filter: blur(4px);
+            opacity: 0.7;
+            z-index: -1;
+            animation: animateBackground 20s ease infinite;
+        }
+
+        @keyframes animateBackground {
+            0% {
+                background-position: center top;
+            }
+            50% {
+                background-position: center bottom;
+            }
+            100% {
+                background-position: center top;
+            }
+        }
+
+        /* Floating Leaf Animation */
+        .floating-leaf {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/7/72/Leaf_clipart_green_leaf_clipart_small.png');
+            background-size: cover;
+            animation: floatLeaf 6s ease-in-out infinite;
+        }
+
+        .leaf-1 {
+            top: 20px;
+            left: -50px;
+            animation-delay: 0s;
+        }
+
+        .leaf-2 {
+            top: 100px;
+            right: -60px;
+            animation-delay: 1s;
+        }
+
+        .leaf-3 {
+            bottom: 50px;
+            left: -30px;
+            animation-delay: 2s;
+        }
+
+        @keyframes floatLeaf {
+            0% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(20px);
+            }
+            100% {
+                transform: translateY(0px);
+            }
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            background-color: var(--dark-green);
+            padding: 20px;
+            color: white;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: var(--light-green);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Cursor bubble effect */
+        .bubble {
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.5);
+            pointer-events: none;
+            animation: bubbleMove 3s linear infinite;
+        }
+
+        @keyframes bubbleMove {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(-1000px) scale(0.5);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Background Animation -->
+    <div class="background-animation"></div>
+
+    <header>
+        <h1>Mobile Price Prediction</h1>
+        <!-- Floating leaves animation for an eco-friendly vibe -->
+        <div class="floating-leaf leaf-1"></div>
+        <div class="floating-leaf leaf-2"></div>
+        <div class="floating-leaf leaf-3"></div>
+    </header>
+
+    <div class="container">
+        <h2>Project Overview</h2>
+        <p>Welcome to the Mobile Price Prediction project! This tool predicts the price of mobile phones based on their specifications. Input various mobile features and get an estimated price instantly, helping you make informed decisions.</p>
+
+        <div class="features">
+            <div class="feature-box">
+                <h3>Clean Dataset</h3>
+                <p>We use a well-cleaned and organized dataset that includes the most relevant mobile specifications to ensure precise price predictions.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Interactive Insights</h3>
+                <p>Discover trends and insights about mobile phones, including how different specs like battery life and RAM affect the overall price.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Smart Predictions</h3>
+                <p>Our machine learning model provides highly accurate predictions based on mobile features, ensuring a great user experience.</p>
+            </div>
+        </div>
+
+        <a href="/prediction" class="btn">Start Predicting</a>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Mobile Price Prediction Project | <a href="https://github.com/">GitHub Repository</a></p>
+    </footer>
+
+    <script>
+        // Bubble effect on cursor move
+        document.addEventListener("mousemove", function(e) {
+            const bubble = document.createElement("div");
+            bubble.classList.add("bubble");
+            document.body.appendChild(bubble);
+            bubble.style.left = `${e.pageX - 7.5}px`;
+            bubble.style.top = `${e.pageY - 7.5}px`;
+
+            setTimeout(() => {
+                bubble.remove();
+            }, 3000);
+        });
+    </script>
+
+</body>
+</html>

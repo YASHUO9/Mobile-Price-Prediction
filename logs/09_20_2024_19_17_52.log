@@ -1,0 +1,10 @@
+[2024-09-20 19:17:55,240] 97 werkzeug - WARNING -  * Debugger is active!
+[2024-09-20 19:17:55,244] 97 werkzeug - INFO -  * Debugger PIN: 112-909-000
+[2024-09-20 19:17:55,290] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 19:17:55] "GET / HTTP/1.1" 200 -
+[2024-09-20 19:17:55,320] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 19:17:55] "GET /predict HTTP/1.1" 200 -
+[2024-09-20 19:18:11,650] 68 root - INFO - Dataframe Gathered
+[2024-09-20 19:18:12,259] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 19:18:12] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2024-09-20 19:18:12,283] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 19:18:12] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-09-20 19:18:12,283] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 19:18:12] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-09-20 19:18:12,626] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 19:18:12] "GET /predict?__debugger__=yes&cmd=resource&f=console.png&s=9HisrCQPH7lL5JPPU5e9 HTTP/1.1" 200 -
+[2024-09-20 19:18:12,880] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 19:18:12] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -

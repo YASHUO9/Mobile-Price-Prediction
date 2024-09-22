@@ -1,0 +1,17 @@
+[2024-09-20 18:18:41,996] 66 root - INFO - read train and test data complete
+[2024-09-20 18:18:42,012] 67 root - INFO - Train Dataframe Head : 
+   Ratings  RAM    ROM  Mobile_Size  Primary_Cam  Selfi_Cam  Battery_Power  Price
+0      4.1  6.0   32.0         4.50           48        8.0           3000    985
+1      4.3  4.0   64.0         6.50           35        2.0           4230  12490
+2      4.2  8.0  128.0         6.59           35        5.0           3800  29990
+3      3.7  6.0   64.0         4.50           48        8.0           3000    649
+4      3.6  6.0   32.0         4.54           38        0.0           1200    945
+[2024-09-20 18:18:42,017] 68 root - INFO - Test Dataframe Head : 
+   Ratings  RAM    ROM  Mobile_Size  Primary_Cam  Selfi_Cam  Battery_Power   Price
+0      4.7  8.0  128.0        5.800           35       12.0           5000  140300
+1      4.3  4.0    4.0        4.770           64        8.0           3500    1349
+2      4.4  6.0  128.0        6.260           48        2.0           3750   22999
+3      4.5  4.0   64.0        6.300           48        5.0           3260   23990
+4      4.2  4.0   22.0        4.503           48        8.0           3000    2025
+[2024-09-20 18:18:42,035] 79 root - INFO - Applying preprocessing object on training and testing datasets.
+[2024-09-20 18:18:42,037] 89 root - INFO - preprocessing pickle file saved

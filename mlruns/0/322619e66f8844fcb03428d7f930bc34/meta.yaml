@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/322619e66f8844fcb03428d7f930bc34/artifacts
+end_time: 1726840391460
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 322619e66f8844fcb03428d7f930bc34
+run_name: magnificent-dove-744
+run_uuid: 322619e66f8844fcb03428d7f930bc34
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726840382756
+status: 4
+tags: []
+user_id: DELL

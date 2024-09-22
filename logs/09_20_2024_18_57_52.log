@@ -1,0 +1,15 @@
+[2024-09-20 18:57:55,688] 97 werkzeug - WARNING -  * Debugger is active!
+[2024-09-20 18:57:55,692] 97 werkzeug - INFO -  * Debugger PIN: 112-909-000
+[2024-09-20 18:57:56,381] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 18:57:56] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2024-09-20 18:57:56,416] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 18:57:56] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-09-20 18:57:56,612] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 18:57:56] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-09-20 18:57:56,942] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 18:57:56] "GET /predict?__debugger__=yes&cmd=resource&f=console.png&s=TAoQ00P4pf3O2cZUUyd7 HTTP/1.1" 200 -
+[2024-09-20 18:57:57,199] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 18:57:57] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-09-20 18:58:00,801] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 18:58:00] "GET / HTTP/1.1" 200 -
+[2024-09-20 18:58:03,042] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 18:58:03] "GET /predict HTTP/1.1" 200 -
+[2024-09-20 18:58:14,072] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 18:58:14] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2024-09-20 18:58:14,093] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 18:58:14] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-09-20 18:58:14,294] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 18:58:14] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-09-20 18:58:14,646] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 18:58:14] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png&s=TAoQ00P4pf3O2cZUUyd7 HTTP/1.1[0m" 304 -
+[2024-09-20 18:58:14,913] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 18:58:14] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-09-20 19:00:36,219] 97 werkzeug - INFO -  * Detected change in 'D:\\work\\Mobile-Price-Prediction\\src\\Mobile_Price_Prediction\\pipelines\\prediction_pipeline.py', reloading

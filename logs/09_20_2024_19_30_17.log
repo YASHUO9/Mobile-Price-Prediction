@@ -1,0 +1,26 @@
+[2024-09-20 19:30:23,288] 25 root - INFO - data ingestion started
+[2024-09-20 19:30:23,304] 29 root - INFO -  i have read dataset as a df
+[2024-09-20 19:30:23,317] 34 root - INFO -  i have saved the raw dataset in artifact folder
+[2024-09-20 19:30:23,317] 36 root - INFO - here i have performed train test split
+[2024-09-20 19:30:23,319] 39 root - INFO - train test split completed
+[2024-09-20 19:30:23,327] 44 root - INFO - data ingestion part completed
+[2024-09-20 19:30:23,387] 66 root - INFO - read train and test data complete
+[2024-09-20 19:30:23,399] 67 root - INFO - Train Dataframe Head : 
+   Ratings   RAM    ROM  Mobile_Size  Primary_Cam  Selfi_Cam  Battery_Power  Price
+0      4.2   6.0   64.0         6.30           48        5.0           3500  18099
+1      4.5   8.0  128.0         6.70           48       12.0           4700  42999
+2      4.5   6.0   64.0         6.26           35        5.0           3000  16675
+3      4.1   6.0   32.0         4.40           48        8.0           2500    985
+4      3.8  12.0   64.0         4.54           48        8.0           2800   1460
+[2024-09-20 19:30:23,399] 68 root - INFO - Test Dataframe Head : 
+   Ratings  RAM    ROM  Mobile_Size  Primary_Cam  Selfi_Cam  Battery_Power  Price
+0      4.5  8.0  128.0         6.50           64       13.0           3800  31999
+1      4.1  6.0   32.0         4.50           48       16.0           3000    649
+2      4.0  6.0   32.0         3.70           16        8.0           3000    975
+3      3.9  6.0   32.0         4.54           64        8.0           4100   1099
+4      4.0  6.0   32.0         4.54           64       14.0           2500   1695
+[2024-09-20 19:30:23,422] 79 root - INFO - Applying preprocessing object on training and testing datasets.
+[2024-09-20 19:30:23,422] 89 root - INFO - preprocessing pickle file saved
+[2024-09-20 19:30:23,422] 28 root - INFO - Splitting Dependent and Independent variables from train and test data
+[2024-09-20 19:30:24,942] 49 root - INFO - Model Report : {'LinearRegression': 1.0, 'Lasso': 0.9999999836699706, 'Ridge': 0.9999953789295847, 'Elasticnet': 0.889461822062005, 'RandomForestRegressor': 0.9999456977071067, 'SVR': -0.29257150910104035, 'DecisionTreeRegressor': 0.9999393580651448}
+[2024-09-20 19:30:24,942] 62 root - INFO - Best Model Found , Model Name : LinearRegression , R2 Score : 1.0

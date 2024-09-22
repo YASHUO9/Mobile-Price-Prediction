@@ -1,0 +1,19 @@
+[2024-09-22 19:29:02,427] 97 werkzeug - WARNING -  * Debugger is active!
+[2024-09-22 19:29:02,427] 97 werkzeug - INFO -  * Debugger PIN: 112-909-000
+[2024-09-22 19:29:04,338] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:29:04] "GET / HTTP/1.1" 200 -
+[2024-09-22 19:29:04,663] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:29:04] "[33mGET /pexels-apasaric-325185.jpg HTTP/1.1[0m" 404 -
+[2024-09-22 19:29:07,141] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:29:07] "[33mGET /prediction_only.html HTTP/1.1[0m" 404 -
+[2024-09-22 19:29:46,510] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:29:46] "GET / HTTP/1.1" 200 -
+[2024-09-22 19:29:46,545] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:29:46] "[33mGET /pexels-apasaric-325185.jpg HTTP/1.1[0m" 404 -
+[2024-09-22 19:29:50,285] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:29:50] "[33mGET /prediction_only.html HTTP/1.1[0m" 404 -
+[2024-09-22 19:29:53,467] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:29:53] "GET /predict HTTP/1.1" 200 -
+[2024-09-22 19:30:24,270] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:30:24] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2024-09-22 19:30:24,564] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:30:24] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2024-09-22 19:30:24,594] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:30:24] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2024-09-22 19:30:24,931] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:30:24] "GET /predict?__debugger__=yes&cmd=resource&f=console.png&s=8JjXMCBhsH9igSrCKydm HTTP/1.1" 200 -
+[2024-09-22 19:30:25,180] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:30:25] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2024-09-22 19:31:07,373] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:31:07] "[33mGET /prediction_only.html HTTP/1.1[0m" 404 -
+[2024-09-22 19:31:10,205] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:31:10] "[33mGET /prediction_only.html HTTP/1.1[0m" 404 -
+[2024-09-22 19:31:13,929] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:31:13] "[33mGET /prediction_only.html HTTP/1.1[0m" 404 -
+[2024-09-22 19:31:30,356] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:31:30] "[33mGET /prediction_only.html HTTP/1.1[0m" 404 -
+[2024-09-22 19:32:19,228] 97 werkzeug - INFO -  * Detected change in 'D:\\work\\Mobile-Price-Prediction\\app.py', reloading

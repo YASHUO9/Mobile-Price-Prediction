@@ -1,0 +1,10 @@
+[2024-09-20 18:56:10,816] 97 werkzeug - WARNING -  * Debugger is active!
+[2024-09-20 18:56:10,822] 97 werkzeug - INFO -  * Debugger PIN: 112-909-000
+[2024-09-20 18:56:10,876] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 18:56:10] "GET / HTTP/1.1" 200 -
+[2024-09-20 18:56:13,510] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 18:56:13] "GET /predict HTTP/1.1" 200 -
+[2024-09-20 18:56:23,996] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 18:56:23] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2024-09-20 18:56:24,276] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 18:56:24] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-09-20 18:56:24,326] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 18:56:24] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-09-20 18:56:24,676] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 18:56:24] "GET /predict?__debugger__=yes&cmd=resource&f=console.png&s=j9UGfX3xF8cRzNTqA3lh HTTP/1.1" 200 -
+[2024-09-20 18:56:24,946] 97 werkzeug - INFO - 127.0.0.1 - - [20/Sep/2024 18:56:24] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-09-20 18:57:03,312] 97 werkzeug - INFO -  * Detected change in 'D:\\work\\Mobile-Price-Prediction\\src\\Mobile_Price_Prediction\\pipelines\\prediction_pipeline.py', reloading

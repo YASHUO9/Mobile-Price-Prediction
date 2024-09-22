@@ -1,0 +1,10 @@
+[2024-09-22 19:32:21,390] 97 werkzeug - WARNING -  * Debugger is active!
+[2024-09-22 19:32:21,398] 97 werkzeug - INFO -  * Debugger PIN: 112-909-000
+[2024-09-22 19:32:25,798] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:32:25] "[33mGET /prediction_only.html HTTP/1.1[0m" 404 -
+[2024-09-22 19:32:27,930] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:32:27] "GET / HTTP/1.1" 200 -
+[2024-09-22 19:32:27,946] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:32:27] "[33mGET /pexels-apasaric-325185.jpg HTTP/1.1[0m" 404 -
+[2024-09-22 19:32:28,780] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:32:28] "GET / HTTP/1.1" 200 -
+[2024-09-22 19:32:28,799] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:32:28] "[33mGET /pexels-apasaric-325185.jpg HTTP/1.1[0m" 404 -
+[2024-09-22 19:32:29,721] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:32:29] "[33mGET /form.html HTTP/1.1[0m" 404 -
+[2024-09-22 19:32:57,163] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:32:57] "[33mGET /form.html HTTP/1.1[0m" 404 -
+[2024-09-22 19:35:05,673] 97 werkzeug - INFO -  * Detected change in 'D:\\work\\Mobile-Price-Prediction\\app.py', reloading

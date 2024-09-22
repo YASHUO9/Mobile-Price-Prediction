@@ -1,0 +1,29 @@
+[2024-09-22 19:44:27,686] 97 werkzeug - WARNING -  * Debugger is active!
+[2024-09-22 19:44:27,686] 97 werkzeug - INFO -  * Debugger PIN: 112-909-000
+[2024-09-22 19:44:39,053] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:44:39] "GET / HTTP/1.1" 200 -
+[2024-09-22 19:44:39,302] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:44:39] "[33mGET /pexels-apasaric-325185.jpg HTTP/1.1[0m" 404 -
+[2024-09-22 19:44:41,028] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:44:41] "GET /prediction HTTP/1.1" 200 -
+[2024-09-22 19:44:54,932] 68 root - INFO - Dataframe Gathered
+[2024-09-22 19:44:55,168] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:44:55] "POST /prediction HTTP/1.1" 200 -
+[2024-09-22 19:44:57,853] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:44:57] "GET /prediction HTTP/1.1" 200 -
+[2024-09-22 19:44:59,206] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:44:59] "[33mGET /index.html HTTP/1.1[0m" 404 -
+[2024-09-22 19:45:06,640] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:45:06] "[33mGET /index.html HTTP/1.1[0m" 404 -
+[2024-09-22 19:45:31,683] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:45:31] "[33mGET /index.html HTTP/1.1[0m" 404 -
+[2024-09-22 19:45:34,610] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:45:34] "GET / HTTP/1.1" 200 -
+[2024-09-22 19:45:34,950] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:45:34] "[33mGET /pexels-apasaric-325185.jpg HTTP/1.1[0m" 404 -
+[2024-09-22 19:45:41,355] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:45:41] "GET /prediction HTTP/1.1" 200 -
+[2024-09-22 19:45:42,989] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:45:42] "[33mGET /index.html HTTP/1.1[0m" 404 -
+[2024-09-22 19:46:23,928] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:46:23] "GET / HTTP/1.1" 200 -
+[2024-09-22 19:46:24,274] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:46:24] "[33mGET /pexels-apasaric-325185.jpg HTTP/1.1[0m" 404 -
+[2024-09-22 19:46:26,385] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:46:26] "GET /prediction HTTP/1.1" 200 -
+[2024-09-22 19:46:28,018] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:46:28] "GET / HTTP/1.1" 200 -
+[2024-09-22 19:46:28,323] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:46:28] "[33mGET /pexels-apasaric-325185.jpg HTTP/1.1[0m" 404 -
+[2024-09-22 19:46:30,375] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:46:30] "GET /prediction HTTP/1.1" 200 -
+[2024-09-22 19:46:31,847] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:46:31] "GET / HTTP/1.1" 200 -
+[2024-09-22 19:46:31,876] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:46:31] "[33mGET /pexels-apasaric-325185.jpg HTTP/1.1[0m" 404 -
+[2024-09-22 19:47:38,188] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:47:38] "GET / HTTP/1.1" 200 -
+[2024-09-22 19:47:38,446] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:47:38] "[33mGET /pexels-apasaric-325185.jpg HTTP/1.1[0m" 404 -
+[2024-09-22 19:47:39,980] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:47:39] "GET /prediction HTTP/1.1" 200 -
+[2024-09-22 19:47:44,430] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:47:44] "GET / HTTP/1.1" 200 -
+[2024-09-22 19:47:44,734] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:47:44] "[33mGET /pexels-apasaric-325185.jpg HTTP/1.1[0m" 404 -
+[2024-09-22 19:47:46,732] 97 werkzeug - INFO - 127.0.0.1 - - [22/Sep/2024 19:47:46] "GET /prediction HTTP/1.1" 200 -

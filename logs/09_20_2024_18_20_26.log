@@ -1,0 +1,24 @@
+[2024-09-20 18:20:29,266] 25 root - INFO - data ingestion started
+[2024-09-20 18:20:29,274] 29 root - INFO -  i have read dataset as a df
+[2024-09-20 18:20:29,277] 34 root - INFO -  i have saved the raw dataset in artifact folder
+[2024-09-20 18:20:29,277] 36 root - INFO - here i have performed train test split
+[2024-09-20 18:20:29,284] 39 root - INFO - train test split completed
+[2024-09-20 18:20:29,284] 44 root - INFO - data ingestion part completed
+[2024-09-20 18:20:29,325] 74 root - INFO - read train and test data complete
+[2024-09-20 18:20:29,325] 75 root - INFO - Train Dataframe Head : 
+   Ratings  RAM    ROM  Mobile_Size  Primary_Cam  Selfi_Cam  Battery_Power  Price
+0      4.5  6.0   64.0         5.99           35        5.0           3800  13999
+1      4.2  2.0   16.0         5.70           38        8.0           3180   9490
+2      4.4  8.0  128.0         6.44           48       13.0           4440  34990
+3      4.5  8.0  128.0         6.70           64        1.0           4700  77999
+4      4.1  4.0   64.0         5.90           38        2.0           3000  14999
+[2024-09-20 18:20:29,325] 76 root - INFO - Test Dataframe Head : 
+   Ratings  RAM   ROM  Mobile_Size  Primary_Cam  Selfi_Cam  Battery_Power  Price
+0      4.1  6.0  32.0         4.54           48       20.0           3000   1199
+1      4.0  6.0  32.0         4.77           48        8.0           3000   2100
+2      4.5  4.0  64.0         6.26           35        5.0           3000  15990
+3      3.5  6.0  64.0         4.50           48        8.0           3000    599
+4      4.6  8.0  64.0         5.50           35       12.0           3500  49900
+[2024-09-20 18:20:29,325] 32 root - INFO - Data Transformation initiated
+[2024-09-20 18:20:29,325] 39 root - INFO - Pipeline Initiated
+[2024-09-20 18:20:29,334] 112 root - INFO - Exception occured in the initiate_datatransformation

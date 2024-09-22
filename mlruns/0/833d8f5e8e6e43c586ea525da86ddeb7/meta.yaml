@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/833d8f5e8e6e43c586ea525da86ddeb7/artifacts
+end_time: 1727002963159
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 833d8f5e8e6e43c586ea525da86ddeb7
+run_name: gaudy-skink-506
+run_uuid: 833d8f5e8e6e43c586ea525da86ddeb7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727002955609
+status: 4
+tags: []
+user_id: DELL
