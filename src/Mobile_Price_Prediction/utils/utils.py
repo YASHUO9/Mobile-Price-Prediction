@@ -1,8 +1,6 @@
 import os
 import sys
 import pickle
-import numpy as np
-import pandas as pd
 from src.Mobile_Price_Prediction.logger import logging
 from src.Mobile_Price_Prediction.exception import customexception
 
