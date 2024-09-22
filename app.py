@@ -13,12 +13,12 @@ def prediction():
         return render_template("prediction.html")
     else:
         data = CustomData(
-            Ratings=float(request.form.get('Ratings')),
-            RAM=float(request.form.get('RAM')),
-            ROM=float(request.form.get('ROM')),
-            Mobile_Size=float(request.form.get('Mobile_Size')),
+            Ratings=int(request.form.get('Ratings')),
+            RAM=int(request.form.get('RAM')),
+            ROM=int(request.form.get('ROM')),
+            Mobile_Size=int(request.form.get('Mobile_Size')),
             Primary_Cam=int(request.form.get('Primary_Cam')),
-            Selfi_Cam=float(request.form.get('Selfie_Cam')),
+            Selfi_Cam=int(request.form.get('Selfie_Cam')),
             Battery_Power=int(request.form.get('Battery_Power')),
         )
         final_data = data.get_data_as_dataframe()
