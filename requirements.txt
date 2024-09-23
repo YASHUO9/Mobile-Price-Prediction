@@ -11,5 +11,5 @@ apache-airflow
 pandas-profiling
 matplotlib
 dvc
-
+dagshub mlflow
 -e .

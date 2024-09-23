@@ -31,7 +31,7 @@ class ModelEvaluation:
 
         
 
-            mlflow.set_registry_uri("https://dagshub.com/Yash-Pathak/Mobile-Price-Prediction.mlflow")
+            # mlflow.set_registry_uri("https://dagshub.com/Yash-Pathak/Mobile-Price-Prediction.mlflow")
             
             tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
                   
@@ -60,6 +60,8 @@ class ModelEvaluation:
                 # it is for the local 
                 else:
                     mlflow.sklearn.log_model(model, "model")
+                mlflow.autolog()
+
 
 
                 
@@ -67,3 +69,4 @@ class ModelEvaluation:
             
         except Exception as e:
             raise e
+        

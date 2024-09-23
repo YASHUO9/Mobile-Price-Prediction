@@ -1,0 +1,27 @@
+[2024-09-23 14:42:26,940] 25 root - INFO - data ingestion started
+[2024-09-23 14:42:26,956] 29 root - INFO -  i have read dataset as a df
+[2024-09-23 14:42:26,965] 34 root - INFO -  i have saved the raw dataset in artifact folder
+[2024-09-23 14:42:26,965] 36 root - INFO - here i have performed train test split
+[2024-09-23 14:42:26,965] 39 root - INFO - train test split completed
+[2024-09-23 14:42:26,972] 44 root - INFO - data ingestion part completed
+[2024-09-23 14:42:26,982] 70 root - INFO - read train and test data complete
+[2024-09-23 14:42:26,996] 71 root - INFO - Train Dataframe Head : 
+   Unnamed: 0  Ratings  RAM  ROM  Mobile_Size  Primary_Cam  Selfi_Cam  Battery_Power  Price
+0         695        3    4   64            4           48          8           1200   4277
+1         516        3    6   32            4           48         15           3000    900
+2         135        3    1    4            4           38          2           2800  13298
+3         769        3    4   64            5           48          5           3000  13999
+4         306        4    6  128            6           48          8           3800  16999
+[2024-09-23 14:42:26,996] 72 root - INFO - Test Dataframe Head : 
+   Unnamed: 0  Ratings  RAM  ROM  Mobile_Size  Primary_Cam  Selfi_Cam  Battery_Power  Price
+0          79        3    6   64            4           48          8           3600   1799
+1         252        4    6   64            6           64          8           4700  17499
+2         752        4    6   32            4           48         22           1750   1390
+3         360        3    6   32            4           48          5           1050    629
+4         765        4    4    4            4           64         13           3500   1575
+[2024-09-23 14:42:26,996] 30 root - INFO - Data Transformation initiated
+[2024-09-23 14:42:27,012] 90 root - INFO - Applying preprocessing object on training and testing datasets.
+[2024-09-23 14:42:27,012] 100 root - INFO - preprocessing pickle file saved
+[2024-09-23 14:42:27,012] 28 root - INFO - Splitting Dependent and Independent variables from train and test data
+[2024-09-23 14:42:27,344] 49 root - INFO - Model Report : {'LinearRegression': 0.38011765900856476, 'Lasso': 0.3801444846732205, 'Ridge': 0.38014330656886874, 'Elasticnet': 0.3622778705969186, 'RandomForestRegressor': 0.8858673192198617, 'SVR': -0.30685382714079523, 'DecisionTreeRegressor': 0.8901492181292694}
+[2024-09-23 14:42:27,344] 62 root - INFO - Best Model Found , Model Name : DecisionTreeRegressor , R2 Score : 0.8901492181292694

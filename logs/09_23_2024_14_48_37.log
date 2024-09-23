@@ -1,0 +1,37 @@
+[2024-09-23 14:48:46,150] 1038 httpx - INFO - HTTP Request: POST https://dagshub.com/login/oauth/middleman "HTTP/1.1 200 OK"
+[2024-09-23 14:48:47,099] 1038 httpx - INFO - HTTP Request: POST https://dagshub.com/login/oauth/access_token "HTTP/1.1 200 OK"
+[2024-09-23 14:48:48,031] 1038 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-09-23 14:48:48,047] 107 dagshub - INFO - Accessing as Yash-Pathak
+[2024-09-23 14:48:49,091] 1038 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Yash-Pathak/Mobile-Price-Prediction "HTTP/1.1 200 OK"
+[2024-09-23 14:48:49,107] 107 dagshub - INFO - Initialized MLflow to track repo "Yash-Pathak/Mobile-Price-Prediction"
+[2024-09-23 14:48:49,117] 107 dagshub - INFO - Repository Yash-Pathak/Mobile-Price-Prediction initialized!
+[2024-09-23 14:48:50,052] 1038 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Yash-Pathak/Mobile-Price-Prediction "HTTP/1.1 200 OK"
+[2024-09-23 14:48:50,057] 107 dagshub - INFO - Initialized MLflow to track repo "Yash-Pathak/Mobile-Price-Prediction"
+[2024-09-23 14:48:50,057] 107 dagshub - INFO - Repository Yash-Pathak/Mobile-Price-Prediction initialized!
+[2024-09-23 14:48:50,057] 25 root - INFO - data ingestion started
+[2024-09-23 14:48:50,065] 29 root - INFO -  i have read dataset as a df
+[2024-09-23 14:48:50,084] 34 root - INFO -  i have saved the raw dataset in artifact folder
+[2024-09-23 14:48:50,084] 36 root - INFO - here i have performed train test split
+[2024-09-23 14:48:50,084] 39 root - INFO - train test split completed
+[2024-09-23 14:48:50,089] 44 root - INFO - data ingestion part completed
+[2024-09-23 14:48:50,130] 70 root - INFO - read train and test data complete
+[2024-09-23 14:48:50,130] 71 root - INFO - Train Dataframe Head : 
+   Unnamed: 0  Ratings  RAM  ROM  Mobile_Size  Primary_Cam  Selfi_Cam  Battery_Power  Price
+0         483        4    3   64            5           35         20           3500  42998
+1         735        4    6  128            6           48          8           3800  42990
+2         461        3   10   32            4           64          8           3500    799
+3         167        4    2   16            6           38          2           3800   6499
+4         706        4    6  128            6           48          5           3000  32999
+[2024-09-23 14:48:50,138] 72 root - INFO - Test Dataframe Head : 
+   Unnamed: 0  Ratings  RAM  ROM  Mobile_Size  Primary_Cam  Selfi_Cam  Battery_Power  Price
+0         150        3    6   32            4           48          8           3000    813
+1         373        3    4   64            4           64          8           1750   1399
+2         122        4    2   16            5           38          2           3050  13999
+3         492        4    4    4            4           64          8           3500   1149
+4         584        4    8  128            6           48         13           4440  34990
+[2024-09-23 14:48:50,138] 30 root - INFO - Data Transformation initiated
+[2024-09-23 14:48:50,149] 90 root - INFO - Applying preprocessing object on training and testing datasets.
+[2024-09-23 14:48:50,163] 100 root - INFO - preprocessing pickle file saved
+[2024-09-23 14:48:50,163] 28 root - INFO - Splitting Dependent and Independent variables from train and test data
+[2024-09-23 14:48:50,873] 49 root - INFO - Model Report : {'LinearRegression': 0.40034394265407236, 'Lasso': 0.40040461464200794, 'Ridge': 0.4007810183944007, 'Elasticnet': 0.4449203220445991, 'RandomForestRegressor': 0.8748983484999651, 'SVR': -0.45413467029861376, 'DecisionTreeRegressor': 0.8365560466511244}
+[2024-09-23 14:48:50,881] 62 root - INFO - Best Model Found , Model Name : RandomForestRegressor , R2 Score : 0.8748983484999651

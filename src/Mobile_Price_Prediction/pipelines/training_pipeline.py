@@ -7,6 +7,8 @@ from src.Mobile_Price_Prediction.components.model_trainer import ModelTrainer
 from src.Mobile_Price_Prediction.components.model_evaluation import ModelEvaluation
 
 
+import dagshub
+dagshub.init(repo_owner='Yash-Pathak', repo_name='Mobile-Price-Prediction', mlflow=True)
 
 import sys
 from src.Mobile_Price_Prediction.logger import logging
@@ -47,7 +49,7 @@ class TrainingPipeline:
         
         
         
-        
+dagshub.init(repo_owner='Yash-Pathak', repo_name='Mobile-Price-Prediction', mlflow=True)
 obj =DataIngestion()
 train_data_path,test_data_path=obj.initiate_data_ingestion()
 train_arr,test_arr = DataTransformation().initialize_data_transformation(train_data_path,test_data_path)
