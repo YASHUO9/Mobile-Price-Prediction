@@ -1,5 +1,4 @@
 import os
-import sys
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from urllib.parse import urlparse
 import mlflow
@@ -22,6 +21,7 @@ class ModelEvaluation:
 
 
     def initiate_model_evaluation(self,train_array,test_array):
+        
         # Evaluate the model the prediction data is required
         try:
             X_test,y_test=(test_array[:,:-1], test_array[:,-1])
@@ -31,7 +31,7 @@ class ModelEvaluation:
 
         
 
-            mlflow.set_registry_uri("https://dagshub.com/Yash-Pathak/fsdsmendtoend-main.mlflow")
+            mlflow.set_registry_uri("https://dagshub.com/Yash-Pathak/Mobile-Price-Prediction.mlflow")
             
             tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
                   

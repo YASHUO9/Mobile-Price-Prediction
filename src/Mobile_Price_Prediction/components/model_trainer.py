@@ -1,6 +1,3 @@
-
-import pandas as pd
-import numpy as np
 import os
 import sys
 from src.Mobile_Price_Prediction.logger import logging
